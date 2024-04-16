@@ -1,0 +1,13 @@
+{
+  "namespace": "camion",
+  "type": "record",
+  "name": "value",
+  "fields": [
+    {"name": "matricula", "type": "string"},
+    {"name": "latitud", "type": "float"},
+    {"name": "longitud", "type": "float"},
+    {"name": "km", "type": "float"},
+    {"name": "velocidad", "type": "int"},
+    {"name": "timestamp", "type": "string"}
+  ]
+}
